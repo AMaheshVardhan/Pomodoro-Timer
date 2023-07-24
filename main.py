@@ -1,7 +1,7 @@
 from tkinter import *
 import math
 import time
-# CONSTANTS
+# Constants
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"
@@ -39,7 +39,7 @@ def start_timer():
         title_label.config(text="Work", fg=RED)
 
 
-# COUNTDOWN MECHANISM
+# Code for countdown
 
 
 def count_down(count):
@@ -61,7 +61,7 @@ def count_down(count):
 
 
 
-# UI SETUP
+# User Interface Code
 window = Tk()
 window.title("Pomodoro")   # Pomodoro Refers to tomato in italian
 window.config(padx=200, pady=120, bg=GREEN)
