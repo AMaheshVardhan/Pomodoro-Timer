@@ -3,7 +3,6 @@
 This is a simple Pomodoro Timer implemented using Python and the tkinter library. The Pomodoro Technique is a time management method that uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. The intervals are known as "pomodoros."
 ## How it works
 The main window displays the title "Pomodoro," and an image of a tomato which represents a typical pomodoro timer.
-
 There are three constants defined for the different time intervals used in the Pomodoro Technique:
 
 WORK_MIN: The length of a work session in minutes (default is 25 minutes).
