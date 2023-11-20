@@ -81,5 +81,4 @@ reset_button = Button(text="Reset", highlightthickness=0, command=reset_timer)
 reset_button.grid(column=2, row=2)
 check_mark = Label(fg=RED, bg=GREEN)
 check_mark.grid(column=1, row=3)
-
 window.mainloop()
